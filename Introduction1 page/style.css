@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding : 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Las_Vegas.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size:11px;
+}
+
+.card p {
+    color: rgb(97, 228, 152);
+    font-size:11px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url('images/cupy.png');
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card1 {
+    background-image: url('images/cupy.png');
+}
+
+.card2 {
+    background-image: url('images/TensorFlowLogo.png');
+}
+
+.card3 {
+    background-image: url('images/torch.png');
+}
+
+
+.card4 {
+    background-image: url('images/img.png');
+}
+.card:hover {
+    transform: translateY(-20px);
+}
+
+h5 {
+    color: red;
+    text-shadow: 0 0 5px #999;
+}
+
+/* .card p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+    color: #000;
+}
+
+.card2 p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+    color: #fff;
+}
+
+.card3 p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+    color: #fff;
+}
+
+.card4 p {
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+    color: #fff;
+} */
